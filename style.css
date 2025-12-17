@@ -1,0 +1,50 @@
+body {
+    background-color: #ffffff;
+    text-align: center;
+    font-family: 'Times New Roman', serif; /* Matching the serif font in image */
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.btn {
+    margin: 10px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black; /* Thick black border from image */
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+/* Specific Colors from your Image */
+.red { background-color: #d95377; }
+.blue { background-color: #5ba4bc; }
+.orange { background-color: #ff993c; }
+.purple { background-color: #7f95f9; }
+
+/* Animation Classes for JavaScript */
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
